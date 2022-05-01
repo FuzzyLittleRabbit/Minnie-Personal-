@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(148deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+#logo-img {
+    border-radius: 50%;
+}
+
+#minnie-img {
+    width: 75%;
+    height: auto;
+}
+
+
+.landing {
+    min-height: 100vh;
+    background: grey;
+    padding: 0rem 5rem;
+}
+
+
+.candle-img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.big-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-family: 'Hurricane', cursive;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(180deg, #FFFFFF 10%, #1100f9 25%, #FF0000 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lead {
+    margin-bottom: 10px;
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background: rgba(96, 71, 146, 0.61);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.logo-text {
+    background: -webkit-linear-gradient(180deg, #6284FF 50%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Hurricane', cursive;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Buttons*/
+.btn-grad {
+    background-image: linear-gradient(to right, #FC354C 0%, #6284FF  51%, #FC354C  100%);
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
